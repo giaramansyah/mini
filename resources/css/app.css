@@ -1,0 +1,449 @@
+.form-button,
+.form-loading {
+    text-align: center;
+}
+
+.form-button {
+    display: block;
+}
+
+.form-loading,
+.hidden {
+    display: none;
+}
+
+.alert-danger {
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+}
+
+.alert-success {
+    color: #155724;
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+}
+
+.alert-info {
+    color: #0c5460;
+    background-color: #d1ecf1;
+    border-color: #bee5eb;
+}
+
+.alert-warning {
+    color: #856404;
+    background-color: #fff3cd;
+    border-color: #ffeeba;
+}
+
+.text-sm .btn.btn-xs {
+    font-size: 0.75rem !important;
+}
+
+.table td {
+    border-top: 0;
+    border-bottom: 1px solid #dee2e6;
+    white-space: nowrap;
+}
+
+.table th {
+    text-transform: uppercase !important;
+}
+
+select.form-control-sm ~ .select2-container--default {
+    font-size: 100%;
+}
+
+.bg-login {
+    background-image: url("../img/background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media (min-width: 768px) {
+    .landing-box {
+        width: 100%;
+        height: 100%;
+    }
+
+    .password-box {
+        width: 480px;
+    }
+}
+
+.card-login {
+    border-radius: 0;
+    height: 100%;
+}
+
+.card-login .card-body {
+    border-radius: 0;
+    background-color: #ffffff;
+    padding: 5rem;
+}
+
+.title-login {
+    font-size: 3rem !important;
+    text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.1),
+        0px 18px 23px rgba(0, 0, 0, 0.1);
+}
+
+.subtitle-login {
+    font-size: 2rem !important;
+    text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.1),
+        0px 18px 23px rgba(0, 0, 0, 0.1);
+}
+
+.input-group-tooltips {
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: -1px;
+}
+
+.input-group > .select2-container--default {
+    position: relative;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    width: 1%;
+    min-width: 0;
+    margin-bottom: 0;
+}
+
+.input-group-tooltips:hover {
+    cursor: pointer;
+}
+
+.input-group-tooltips > .input-group-text,
+.input-group-tooltips > .btn {
+    background-color: transparent !important;
+    border: 0 !important;
+    border-radius: 0 !important;
+}
+
+.input-group-lg > .input-group-tooltips > .input-group-text,
+.text-lg .select2-search--dropdown .select2-search__field,
+.input-group-lg > .input-group-tooltips > .btn {
+    padding: 0.5rem 1rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    border-radius: 0.3rem;
+}
+
+.input-group-sm > .input-group-tooltips > .input-group-text,
+.text-sm .select2-search--dropdown .select2-search__field,
+.input-group-sm > .input-group-tooltips > .btn {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    border-radius: 0.2rem;
+}
+
+.input-group:has(.input-group-tooltips) > .form-control:nth-last-child(2),
+.input-group:not(.has-validation):has(.input-group-tooltips)
+    > .form-control:nth-last-child(3),
+.input-group.has-validation:has(.input-group-tooltips)
+    > .form-control:nth-last-child(3),
+.input-group:has(.input-group-tooltips)
+    > .select2-container--default:nth-last-child(2)
+    .select2-selection,
+.input-group:has(.input-group-tooltips)
+    > .input-group-append:nth-last-child(2)
+    > .btn,
+.input-group:has(.input-group-tooltips)
+    > .input-group-append:nth-last-child(2)
+    > .input-group-text {
+    border-top-right-radius: 0.25rem;
+    border-bottom-right-radius: 0.25rem;
+}
+
+.input-group-sm:has(.input-group-tooltips) > .form-control:nth-last-child(2),
+.input-group-sm:has(.input-group-tooltips) > .custom-file:nth-last-child(2) .custom-file-label,
+.input-group-sm:not(.has-validation):has(.input-group-tooltips)
+    > .form-control:nth-last-child(3),
+.input-group-sm.has-validation:has(.input-group-tooltips)
+    > .form-control:nth-last-child(3),
+.input-group-sm:has(.input-group-tooltips)
+    > .select2-container--default:nth-last-child(2)
+    .select2-selection,
+.input-group-sm:has(.input-group-tooltips)
+    > .input-group-append:nth-last-child(2)
+    > .btn,
+.input-group-sm:has(.input-group-tooltips)
+    > .input-group-append:nth-last-child(2)
+    > .input-group-text {
+    border-top-right-radius: 0.2rem;
+    border-bottom-right-radius: 0.2rem;
+}
+
+.input-group-lg:has(.input-group-tooltips) > .form-control:nth-last-child(2),
+.input-group-lg:not(.has-validation):has(.input-group-tooltips)
+    > .form-control:nth-last-child(3),
+.input-group-lg.has-validation:has(.input-group-tooltips)
+    > .form-control:nth-last-child(3),
+.input-group-lg:has(.input-group-tooltips)
+    > .select2-container--default:nth-last-child(2)
+    .select2-selection,
+.input-group-lg:has(.input-group-tooltips)
+    > .input-group-append:nth-last-child(2)
+    > .btn,
+.input-group-lg:has(.input-group-tooltips)
+    > .input-group-append:nth-last-child(2)
+    > .input-group-text {
+    border-top-right-radius: 0.3rem;
+    border-bottom-right-radius: 0.3rem;
+}
+
+.table-app table {
+    border-collapse: separate;
+    border-spacing: 0;
+    border-radius: 10px;
+    border: transparent;
+    overflow: hidden;
+}
+
+.table-app table th {
+    background-color: #6c757d;
+    color: #ffffff;
+}
+
+.table-app table th,
+.table-app table td {
+    border: 0px;
+}
+
+.table-app table td {
+    padding: 0.3rem 0.75rem;
+}
+
+.table-app table tbody tr:nth-of-type(odd) {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.table-app table thead .sorting:before,
+.table-app table thead .sorting:after {
+    opacity: 1;
+    color: #212529;
+}
+
+.table-app table thead .sorting_asc:before,
+.table-app table thead .sorting_desc:after {
+    color: #ffffff;
+}
+
+.table-app .paginate_button,
+.table-app .buttons-collection,
+.table-app .buttons-print {
+    margin-left: 5px !important;
+    margin-right: 5px !important;
+}
+
+.table-app .paginate_button > a,
+.table-app .buttons-collection,
+.table-app .buttons-print {
+    border-radius: 0.25rem !important;
+    color: #212529;
+    border: 1px solid #212529;
+    background-color: #ffffff;
+}
+
+.table-app .paginate_button.disabled > a,
+.table-app .buttons-collection.disabled,
+.table-app .buttons-print.disabled {
+    opacity: 0.65;
+    color: #212529;
+    border-color: #212529;
+    cursor: not-allowed;
+}
+
+.table-app .paginate_button.disabled:hover,
+.table-app .buttons-collection.disabled:hover,
+.table-app .buttons-print.disabled:hover {
+    cursor: not-allowed;
+}
+
+.table-app .paginate_button > a:focus,
+.table-app .buttons-collection:focus,
+.table-app .buttons-print:focus {
+    box-shadow: none;
+}
+
+.table-app .paginate_button:not(.disabled):hover > a,
+.table-app .buttons-collection:hover,
+.table-app .buttons-print:hover,
+.table-app .paginate_button.active > a {
+    color: #ffffff;
+    background-color: #6c757d;
+    border-color: #343a40;
+}
+
+.table-app.table-app-primary table th {
+    color: #ffffff;
+    background-color: #b8daff;
+}
+
+.table-app.table-app-primary table thead .sorting:before,
+.table-app.table-app-primary table thead .sorting:after {
+    color: #007bff;
+}
+
+.table-app.table-app-primary .paginate_button:not(.disabled):hover > a,
+.table-app.table-app-primary .buttons-collection:hover,
+.table-app.table-app-primary .buttons-print:hover,
+.table-app.table-app-primary .paginate_button.active > a {
+    color: #ffffff;
+    background-color: #b8daff;
+    border-color: #007bff;
+}
+
+.table-app.table-app-success table th {
+    color: #ffffff;
+    background-color: #8fd19e;
+}
+
+.table-app.table-app-success table thead .sorting:before,
+.table-app.table-app-success table thead .sorting:after {
+    color: #28a745;
+}
+
+.table-app.table-app-success .paginate_button:not(.disabled):hover > a,
+.table-app.table-app-success .buttons-collection:hover,
+.table-app.table-app-success .buttons-print:hover,
+.table-app.table-app-success .paginate_button.active > a {
+    color: #ffffff;
+    background-color: #8fd19e;
+    border-color: #28a745;
+}
+
+.table-app.table-app-info table th {
+    color: #ffffff;
+    background-color: #bee5eb;
+}
+
+.table-app.table-app-info table thead .sorting:before,
+.table-app.table-app-info table thead .sorting:after {
+    color: #17a2b8;
+}
+
+.table-app.table-app-info .paginate_button:not(.disabled):hover > a,
+.table-app.table-app-info .buttons-collection:hover,
+.table-app.table-app-info .buttons-print:hover,
+.table-app.table-app-info .paginate_button.active > a {
+    color: #ffffff;
+    background-color: #bee5eb;
+    border-color: #17a2b8;
+}
+
+.table-app.table-app-warning table th {
+    color: #ffffff;
+    background-color: #ffeeba;
+}
+
+.table-app.table-app-warning table thead .sorting:before,
+.table-app.table-app-warning table thead .sorting:after {
+    color: #ffc107;
+}
+
+.table-app.table-app-warning .paginate_button:not(.disabled):hover > a,
+.table-app.table-app-warning .buttons-collection:hover,
+.table-app.table-app-warning .buttons-print:hover,
+.table-app.table-app-warning .paginate_button.active > a {
+    color: #ffffff;
+    background-color: #ffeeba;
+    border-color: #ffc107;
+}
+
+.table-app.table-app-danger table th {
+    color: #ffffff;
+    background-color: #f5c6cb;
+}
+
+.table-app.table-app-danger table thead .sorting:before,
+.table-app.table-app-danger table thead .sorting:after {
+    color: #dc3545;
+}
+
+.table-app.table-app-danger .paginate_button:not(.disabled):hover > a,
+.table-app.table-app-danger .buttons-collection:hover,
+.table-app.table-app-danger .buttons-print:hover,
+.table-app.table-app-danger .paginate_button.active > a {
+    color: #ffffff;
+    background-color: #f5c6cb;
+    border-color: #dc3545;
+}
+
+.table-app table.table-app-border {
+    border: 1px solid #343a40;
+}
+
+.table-app table.table-app-border th:not(:first-child),
+.table-app table.table-app-border td:not(:first-child) {
+    border-left: 1px solid #343a40;
+}
+
+.table-app.table-app-primary table.table-app-border,
+.table-app.table-app-primary table.table-app-border th:not(:first-child),
+.table-app.table-app-primary table.table-app-border td:not(:first-child) {
+    border-color: #007bff;
+}
+
+.table-app.table-app-success table.table-app-border,
+.table-app.table-app-success table.table-app-border th:not(:first-child),
+.table-app.table-app-success table.table-app-border td:not(:first-child) {
+    border-color: #28a745;
+}
+
+.table-app.table-app-info table.table-app-border,
+.table-app.table-app-info table.table-app-border th:not(:first-child),
+.table-app.table-app-info table.table-app-border td:not(:first-child) {
+    border-color: #17a2b8;
+}
+
+.table-app.table-app-warning table.table-app-border,
+.table-app.table-app-warning table.table-app-border th:not(:first-child),
+.table-app.table-app-warning table.table-app-border td:not(:first-child) {
+    border-color: #ffc107;
+}
+
+.table-app.table-app-danger table.table-app-border,
+.table-app.table-app-danger table.table-app-border th:not(:first-child),
+.table-app.table-app-danger table.table-app-border td:not(:first-child) {
+    border-color: #dc3545;
+}
+
+.profile-img {
+    position: relative;
+    margin: 0 auto;
+    padding: 3px;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+}
+
+.form-date:read-only, .form-date-range:read-only {
+    background-color: #fff !important;
+}
+
+.col-form-checkbox, .col-form-radio {
+    padding-top: calc(.375rem + 1px);
+    padding-bottom: calc(.375rem + 1px);
+}
+
+.custom-file-sm {
+    height: calc(1.8125rem + 2px);
+}
+
+.custom-file-sm > .custom-file-input,
+.custom-file-sm > .custom-file-label {
+    height: calc(1.8125rem + 2px);
+    padding: .25rem .5rem;
+    font-size: .875rem;
+    line-height: 1.5;
+    border-radius: .2rem;
+}
+
+.custom-file-sm > .custom-file-label::after { 
+    height: 1.8125rem;
+    padding: .25rem .5rem;
+    line-height: 1.5;
+}
